@@ -1,0 +1,35 @@
+:root {
+
+}
+
+header {
+    border: 5px solid #284E81;
+    border-radius: 10px;
+    background-color: #8dabd3;
+}
+
+/* .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+
+/* .myname {
+    border: 5px solid #284E81;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+} */
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #284E81;
+}
