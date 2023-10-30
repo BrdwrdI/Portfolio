@@ -2,34 +2,84 @@
 
 }
 
+body {
+    background-color: white;
+}
+
 header {
     border: 5px solid #284E81;
     border-radius: 10px;
     background-color: #8dabd3;
 }
 
-/* .title {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-} */
-
-/* .myname {
-    border: 5px solid #284E81;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-} */
-
-h1 {
+.title {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
+section {
+    justify-content: left;
+    align-items: baseline;
+    max-width: 710px;
+    max-height: 700px;
+    margin: 1rem ;
+    
+}
+
 .profile {
-    width: 200px;
-    height: 200px;
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 5px solid #284E81;
+    margin: 1rem;
+}
+
+.profile-name {
+    position: relative;
+    margin: -10rem 0 1.5rem 13rem;
+}
+
+.profile-description {
+    position: relative;
+    margin: 0rem 0 2rem 13rem;
+    width: 500px;
+    word-wrap: break-word;
+}
+
+.projects  {
+    display: block;
+    flex-direction: column;
+    border: 5px solid #284E81;
+    border-radius: 10px;
+    width: 100vw;
+    position: relative; 
+    max-width: 97.8vw;
+    left: 51%;
+    margin-left: -50vw;
+    
+}
+
+img {
+    object-fit: cover;    
+}
+
+.study-guide {
+    border: 5px solid #284E81;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.horisen {
+    border: 5px solid #284E81;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.placeholder {
+    border: 5px solid #284E81;
+    border-radius: 10px;
+    margin: 1rem;
 }
