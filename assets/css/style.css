@@ -6,6 +6,7 @@ header {
     border: 5px solid #284E81;
     border-radius: 10px;
     background-color: #8dabd3;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.75);
 }
 
 .title {
@@ -31,13 +32,14 @@ section {
     border-radius: 50%;
     border: 5px solid #284E81;
     margin: 1rem;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.75);
 }
 
 .profile-name {
     /* position: relative; */
     margin: -10rem 0 1.5rem 13rem;
-    border-radius: 10%;
     border: 5px solid #284E81;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.75);
 }
 
 .profile-description {
@@ -45,8 +47,9 @@ section {
     margin: 0rem 0 2rem 13rem;
     width: 500px;
     word-wrap: break-word;
-    border-radius: 10%;
+    border-radius: 5%;
     border: 3px solid #284E81;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.75);
 }
 
 .projects  {
@@ -61,13 +64,16 @@ section {
     margin-left: -50vw;
     max-height: 100%;
     text-align: center;
+    margin-top: 5rem;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.75);
     /* background-color: maroon; */
 }
 
 .study-guide {
     border: 5px solid #284E81;
     border-radius: 10px;
-    margin: 1rem;
+    margin: 2rem;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.75);
 }
 
 .study-guide-screenshot {
@@ -78,7 +84,8 @@ section {
 .horisen {
     border: 5px solid #284E81;
     border-radius: 10px;
-    margin: 1rem;
+    margin: 2rem;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.75);
 }
 
 .horisen-screenshot {
@@ -91,3 +98,10 @@ section {
     border-radius: 10px;
     margin: 1rem;
 } */
+
+footer {
+    border: 5px solid #284E81;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.75);
+}
